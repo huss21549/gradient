@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Background</title>
+    <style>
+        body {
+            background-color: #f4d03f; 
+            background-image: url("ball.jpeg");
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-attachment: scroll;
+            background-size: 300px 300px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 400px; /* Reduced from 800px to 400px */
+            margin: auto;
+            background: rgba(255, 255, 255, 0.8); 
+            padding: 15px; /* Reduced padding from 20px to 15px */
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 0; /* Remove default top margin */
+            margin-bottom: 10px; /* Add a small bottom margin */
+        }
+        .content {
+            height: 200px; /* Reduced height from 100vh to 200px */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        
+        <div class="content"></div> <!-- Changed from p to div with class -->
+    </div>
+</body>
+</html>
